@@ -39,7 +39,7 @@ class Solution(object):
 
 try:
     test = Solution()
-    assert test.reverse(x=1534236469) == 9646324351, "1534236469 reverse 9646324351"
+    assert test.reverse(x=1534236469) == 0, "1534236469 reverse 9646324351"
     assert test.reverse(x=123) == 321, "123 reverse 321"
     assert test.reverse(x=-123) == -321, "-123 reverse -321"
     assert test.reverse(x=120) == 21, "120 reverse 21"
